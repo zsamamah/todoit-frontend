@@ -1,0 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
+:root{
+--red:#F05454;
+--blue:#30475E;
+--s_blue:#305d8a;
+--black:#222831;
+--grey:#DDDDDD;
+--p_red:#d33232;
+--pr:#2a3b8e;
+--sr:#e87624;
+}

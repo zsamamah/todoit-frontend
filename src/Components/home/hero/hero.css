@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,500&display=swap');
+
+.hero {
+	display: grid;
+	grid-template-areas: "hero";
+}
+/* place all content into the 'hero' grid-area */
+ .hero > * {grid-area: hero;}
+
+.hero img {
+	max-width: 100%;
+	filter: brightness(0.75) saturate(1.5);
+}
+.content {
+	/* position content above the image */
+	position: relative;
+	align-self: top;
+	top: 20%;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+}
+/* responsive h3 and p */
+.content h3 {
+	font-family: 'Rozha One', serif;
+	place-self: center;
+	font-size: clamp(2rem, 10vw, 5rem);
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 35%;
+}
+.content p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: clamp(1.2rem, 6vw, 3rem);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
